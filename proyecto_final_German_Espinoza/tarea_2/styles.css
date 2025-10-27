@@ -1,0 +1,25 @@
+
+body {
+  background-color: #92FC21;
+  font-family: 'Montserrat', sans-serif;}
+
+header {
+
+text-align: center;
+padding-bottom: 50px;
+padding-top: 25px;
+background-color: #92FC21;
+
+}
+main {
+    text-align: center;
+  background-color: #C2FC21;
+  justify-content: center;
+}
+nav {
+  text-decoration: none;
+}
+
+section{
+   display: block;
+}

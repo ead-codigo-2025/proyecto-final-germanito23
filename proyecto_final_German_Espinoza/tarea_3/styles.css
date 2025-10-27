@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: ##FFFFFF;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  .container_1 {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .left {
+     width: 40%;
+     padding-right: 20px;
+  }
+
+  .right {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+
+  }
+
+.container_2 {
+
+  padding: 40px;
+  display: flex;
+  display: row;
+  background-color: #F4F4F4;
+  justify-content: center;
+  flex: 1;
+  max-width: 100%;
+}
+
+.container_parrafo {
+  display: flex;
+  flex-direction: column;
+  background-color: #142440;
+  width: 50%;
+  color: #F4F4F4;
+  font-size: 80%;
+  border-radius: 5px;
+  padding: 20px;
+
+}
+
+#container_imagen {
+  width: 50%;
+}
+
+#Card_Deportes{
+  background-color: #F4F4F4;
+  border-radius: 5px;
+}
+#Card_Salud{
+  background-color: #F4F4F4;
+  border-radius: 5px;
+}
+#Card_Estudiantil{
+  background-color: #F4F4F4;
+  border-radius: 5px;
+}
+#Card_Actividades{
+  background-color: #F4F4F4;
+  border-radius: 5px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+  max-width: 23%;
+}
+
+
+
+
+#img {
+  width: 100%;
+
+}

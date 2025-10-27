@@ -1,0 +1,130 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  margin: 0px;
+  background: #1b0024;
+  background: linear-gradient(358deg, rgba(27, 0, 36, 1) 0%, rgba(49, 6, 102, 1) 46%, rgba(145, 12, 207, 1) 100%);
+  font-family: "Roboto Slab", serif;
+  color: #d1c9c9;
+ }
+
+
+ .header_standar {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+
+
+ }
+ .header_index{
+  display: flex;
+  flex-direction: column;
+  background: #3d1c01;
+  background: linear-gradient(2deg, rgba(61, 28, 1, 1) 0%, rgba(121, 61, 9, 1) 2%, rgba(255, 210, 48, 1) 100%);
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+}
+
+#h1 {
+  height: 90%;
+  align-content: center;
+}
+
+
+#container_nav {
+  display: flex;
+  display flex-direction: row;
+  color: yellow;
+  height: 10%;
+  margin-bottom: 100px;
+  align-content: center;
+  padding: 20px;
+}
+
+#sobre_mi {
+  padding-bottom: 30px;
+}
+
+.nav_button {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+}
+
+.container_1 {
+    margin: 20%;
+}
+
+.container_2{
+    margin-top: 40px;
+}
+
+#container_cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-direction: colum;
+  justify-content: space-evenly;
+  align-items: initial;
+
+
+}
+
+#container_cards_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  object-fit: cover;
+}
+
+.cards {
+
+  padding: 0px 0px;
+  border-radius: 10px;
+  text-decoration: none;
+  object-fit: cover;
+  flex-shrink: 1;
+}
+
+.cards_2 {
+
+
+  border-radius: 10px;
+  text-decoration: none;
+
+}
+
+.images {
+
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+
+  max-height: 200px;
+  max-width: 500px;
+  object-fit: cover;
+}
+
+
+.imagen_estandar {
+
+  max-width: 200px;
+  max-height: 200px;
+  width: 400px;
+  height: 400px;
+}
